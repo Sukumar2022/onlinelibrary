@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library-Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/aos.css">
+</head>
+<body>
+    <div class="main">
+        <div class="img-div" data-aos="fade-right">
+            <img src="./images/Login/login.png" alt="" srcset="">
+        </div>
+        <div class="form-container" data-aos="zoom-in">
+            <div class="logo">
+                <img src="./images/logo.png" alt="" srcset="">
+                <h4>OnlineLibrary</h4>
+            </div>
+            <h1>Welcome back</h1>
+            <p>Login to continue</p>
+            <form action="" method="post" onsubmit="return checkLogin()">
+                <div class="input-div">
+                    <img src="./images/Login/user.png" alt="" srcset="" >
+                    <input type="text" name="" id="username" placeholder="Username">
+                </div>
+                <div class="input-div">
+                    <img src="./images/Login/password.png" alt="" srcset="">
+                    <input type="password" name="password" id="password" placeholder="Password" minlength="6" maxlength="12">
+                </div>
+               <button> Login </button> 
+               <a href="signup.html"><span> Let's Signup </span></a>
+            </form>
+        </div>
+
+    </div>
+    
+    <script src="./js/aos.js"></script>
+    <script src="./js/script.js"></script>
+    <script> 
+        AOS.init();
+    </script>
+</body>
+</html>

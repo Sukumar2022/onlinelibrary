@@ -1,0 +1,237 @@
+@media (max-width:1168px) {
+    .sec4 .heading{
+        margin: 10px 0px;
+    }
+    .sec4 .container{
+        padding: 20px;
+    }
+    .sec4 .container .left-container{
+        height: 300px;
+        width: 70%;
+    }
+    .sec4 .container .right-container{
+        margin: 10px;
+        height: 300px;
+        width: 70%;
+    }
+}
+
+@media (max-width:900px) {
+    .hero-banner h1{
+       font-size: 33px;
+       text-align: center;
+    }
+    .hero-banner p{
+        font-size: 15px;
+        width: 80%;
+        text-align: center;
+    }
+}
+@media (max-width:725px) {
+    .sec3 .card-container{
+        margin: 20px 0px;
+        height: auto;
+        width: 80%;
+    }
+    .sec3 .card-container .swiper-slide{
+        height: 400px;
+        width: 70%;
+        justify-content: center;
+       flex-wrap: wrap;
+    }
+    .sec3 .card-container .swiper-slide img{
+        height: 70px;
+        width: 70px;
+        margin: 10px 10px;
+        padding: 10px;
+    }
+    .sec3 .card-container .swiper-slide .content{
+        text-align: start;
+    }
+    .sec3 .card-container .swiper-slide .content h4{
+       text-align: center;
+    }
+}
+
+
+@media (max-width:800px) {
+    .sec4 .container .left-container{
+        height: 400px;
+        width: 70%;
+    }
+    .sec4 .container .right-container{
+        margin: 10px;
+        height: 400px;
+        width: 80%;
+    }
+}
+@media (max-width:715px) {
+    .sec4 .container .left-container{
+        height: auto;
+        width: 70%;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .sec4 .container .right-container{
+        margin: 10px;
+        height: auto;
+        width: 80%;
+        padding: 10px;
+    }
+}
+@media (max-width:604px){
+    .sec2 .heading{
+        margin: 10px 0px;
+    }
+    .sec2 .container{
+        height: auto;
+        width: 80%;
+        display: flex;
+        margin: 10px;
+    }
+    .sec2 .container .box{
+        flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+    .sec2 .container .box img{
+        height: 80px;
+        width: 80px;
+    }
+    .sec2 .container .box h4{
+        font-size: 22px;
+    }
+    .sec2 .container .box p{
+        width: 100%;
+        text-align: start;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .sec5 .card-container .swiper-slide{
+        flex-wrap: wrap;
+    }
+    .sec5 .card-container{
+        margin: 20px 0px;
+        height: auto;
+        margin: 10px;
+        width: 80%;
+    }
+    .sec5 .card-container .swiper-slide{
+        height: 400px;
+        width: 70%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .sec5 .card-container .swiper-slide .content{
+       align-items: center;
+        
+    }
+}
+
+@media (max-width:492px) {
+     .navbar h1{
+        font-size: 38px;
+     }
+     .sec6 form{
+        text-align: center;
+     }
+     .sec6 button{
+        margin: 8px;
+     }
+     .sec4 .container .left-container{
+        height: auto;
+        width: 98%;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+     .sec4 .container .right-container img{
+        height: 300px;
+        width: 300px;
+        margin: 10px 0px;
+        border: 6px solid #fff;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:428px) {
+    .hero .navbar{
+        height: 18vh;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar .line{
+        display: none;
+    }
+    .navbar h1{
+        font-size: 32px;
+        font-weight: 600;
+     }
+     .action-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+     }
+    .res-nav-btn{
+        display: block;
+        color: #fff;
+        font-size: 25px;
+        border: 3px solid slateblue;
+        padding: 12px 23px;
+        border-radius: 30px;
+        transition: .2s;
+        margin: 0px 10px;
+    }
+    .res-nav-btn:hover{
+        background-color: slateblue;
+        color: #fff;
+    }
+    .res-nav{
+        height: 0;
+        width: 100%;
+        background-color: #000;
+        display: block;
+        overflow-y: hidden;
+        transition: .4s;
+    }
+    .sec4 .container{
+        width: 98%;
+    }
+
+    .sec4 .container .left-container{
+        height: auto;
+        width: 98%;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .sec4 .container .left-container .content p{
+       font-size: 18px;
+    }
+    .sec4 .container .right-container{
+        width: 98%;
+    }
+    .sec4 .container .right-container img{
+        height: 240px;
+        width: 260px;
+        margin: 10px 0px;
+        border: 6px solid #fff;
+    }
+    .sec6 input{
+        height: 50px;
+        width: 350px;
+        font-size: 16px;   
+    }
+    .sec6 button{
+        margin: 10px 0px;
+     }
+}
